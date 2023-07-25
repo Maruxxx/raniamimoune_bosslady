@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100;300;400;500;600;700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@font-face {
+    font-family: JannaBold;
+    src: url("fonts/janna_bold.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: JannaRegular;
+    src: url("fonts/janna_regular.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: RobotoSerif;
+    src: url("fonts/roboto_serif.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: Arslan;
+    src: url("fonts/arslan.ttf") format("opentype");
+}
