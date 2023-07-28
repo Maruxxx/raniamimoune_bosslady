@@ -143,7 +143,7 @@ function Offer() {
           
           </div>
           
-          <a onClick={() => {setDzdActive(!dzdActive)}} className='flex justify-center items-center gap-3 hover:scale-110 transition-all duration-200 ease-in-out'>
+          <a onClick={() => {setDzdActive(!dzdActive)}} className='flex justify-center items-center gap-3 lg:hover:scale-110 transition-all duration-200 ease-in-out'>
             <img src={require('../assets/icons/switch.png')} width={27}></img>
             <p   className='font-jannaBold text-center text-lg cursor-pointer text-switchBlue'>
               {
