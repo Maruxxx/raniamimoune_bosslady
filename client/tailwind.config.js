@@ -12,7 +12,8 @@ module.exports = {
           thirdGold: "#E5C57D",
           firstSilver: "#A8A8A8",
           secondSilver: "#FFFFFF",
-          thirdSilver: "#D0D0D0"
+          thirdSilver: "#D0D0D0",
+          switchBlue: "#04599c"
         }
         ,
         fontFamily: {

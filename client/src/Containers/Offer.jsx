@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function Offer() {
+  
+  const [dzdActive, setDzdActive] = useState(false)
   
   const date = new Date(Date.now() + 20 * 24 * 60 * 60 * 1000)
   const converted = (date - Date.now()) / 3600000
   const newDate = converted / 24
-  
   
   
   return (
@@ -28,10 +29,19 @@ function Offer() {
           <div className='flex flex-col gap-8 justify-center items-center md:hidden'>
                     <div className='flex  gap-2 -mb-4'>
 
-                        <div className='flex gap-2'>
-                          <img src={require('../assets/icons/cuttedPrice.png')} alt=''  className='object-contain w-16 sm:w-20 right-10 self-start'></img>
-                          <img src={require('../assets/icons/promoPrice.png')} alt=''  className='object-contain w-32 sm:w-56 right-28'></img>
-                        </div>
+                      {
+                        dzdActive ? (
+                          <div className='flex gap-2'>
+                            <img src={require('../assets/icons/cuttedPriceDZD.png')} alt=''  className='object-contain w-16 sm:w-20 right-10 self-start'></img>
+                            <img src={require('../assets/icons/promoPriceDZD.png')} alt=''  className='object-contain w-32 sm:w-56 right-28'></img>
+                          </div>
+                        ) : (
+                          <div className='flex gap-2'>
+                            <img src={require('../assets/icons/cuttedPrice.png')} alt=''  className='object-contain w-16 sm:w-20 right-10 self-start'></img>
+                            <img src={require('../assets/icons/promoPrice.png')} alt=''  className='object-contain w-32 sm:w-56 right-28'></img>
+                          </div>
+                        )
+                      }
 
                         <img src={require('../assets/icons/logo_black.png')} alt='' className='object-contain max-sm:w-9 sm:mr-8 opacity-70 mr-4'></img>
                     
@@ -69,10 +79,23 @@ function Offer() {
                 
                 <div className='w-2/3 flex flex-col justify-center items-center   gap-4'>
 
-                        <div className='flex justify-center items-center  gap-2'>
-                          <img src={require('../assets/icons/cuttedPrice.png')} alt=''  className='object-contain w-20  right-10 self-start'></img>
-                          <img src={require('../assets/icons/promoPrice.png')} alt=''  className='object-contain w-44 right-28 self-start'></img>
-                        </div>
+                      {
+                        dzdActive ? (
+                          <div className='flex justify-center items-center  gap-2'>
+                            <img src={require('../assets/icons/cuttedPriceDZD.png')} alt=''  className='object-contain w-20  right-10 self-start'></img>
+                            <img src={require('../assets/icons/promoPriceDZD.png')} alt=''  className='object-contain w-44 right-28 self-start'></img>
+                          </div>
+                        ) : (
+                          <div className='flex justify-center items-center  gap-2'>
+                            <img src={require('../assets/icons/cuttedPrice.png')} alt=''  className='object-contain w-20  right-10 self-start'></img>
+                            <img src={require('../assets/icons/promoPrice.png')} alt=''  className='object-contain w-44 right-28 self-start'></img>
+                          </div>
+                        )
+                      }
+
+                        
+
+                        
 
                     
                         <div className='flex gap-2 flex-col justify-center items-center'>
@@ -119,6 +142,15 @@ function Offer() {
           
           
           </div>
+          
+          <a onClick={() => {setDzdActive(!dzdActive)}} className='flex justify-center items-center gap-3 hover:scale-110 transition-all duration-200 ease-in-out'>
+            <img src={require('../assets/icons/switch.png')} width={27}></img>
+            <p   className='font-jannaBold text-center text-lg cursor-pointer text-switchBlue'>
+              {
+                !dzdActive ? 'السعر بالدينار الجزائري' : 'السعر بالدولار الأمريكي' 
+              }
+            </p>
+          </a>
 
 
       <div className='w-5/6 h-80 lg:h-60 relative flex flex-col justify-end items-center'>
