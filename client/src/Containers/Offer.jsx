@@ -49,8 +49,7 @@ function Offer() {
                     </div>
                 
                     <div className='flex gap-2 flex-col justify-center items-center'>
-                      <p className='font-jannaRegular text-center text-md sm:text-xl'>الوقت المتبقي للعرض</p>
-                      <p className='text-center font-jannaBold text-5xl sm:text-7xl'>{Math.round(newDate)} {newDate < 11 && newDate > 1 ? "أيام" : "يوم"}</p>
+                      <p className='text-center font-jannaBold text-4xl sm:text-5xl'>العدد محدود!</p>
                     </div>
 
                     <div className='gap-1'>
@@ -82,13 +81,13 @@ function Offer() {
                       {
                         dzdActive ? (
                           <div className='flex justify-center items-center  gap-2'>
-                            <img src={require('../assets/icons/cuttedPriceDZD.png')} alt=''  className='object-contain w-20  right-10 self-start'></img>
-                            <img src={require('../assets/icons/promoPriceDZD.png')} alt=''  className='object-contain w-44 right-28 self-start'></img>
+                            <img src={require('../assets/icons/cuttedPriceDZD.png')} alt=''  className='object-contain w-24  right-10 self-start'></img>
+                            <img src={require('../assets/icons/promoPriceDZD.png')} alt=''  className='object-contain w-[200px] right-28 self-start'></img>
                           </div>
                         ) : (
                           <div className='flex justify-center items-center  gap-2'>
-                            <img src={require('../assets/icons/cuttedPrice.png')} alt=''  className='object-contain w-20  right-10 self-start'></img>
-                            <img src={require('../assets/icons/promoPrice.png')} alt=''  className='object-contain w-44 right-28 self-start'></img>
+                            <img src={require('../assets/icons/cuttedPrice.png')} alt=''  className='object-contain w-24  right-10 self-start'></img>
+                            <img src={require('../assets/icons/promoPrice.png')} alt=''  className='object-contain w-[200px] right-28 self-start'></img>
                           </div>
                         )
                       }
@@ -99,8 +98,7 @@ function Offer() {
 
                     
                         <div className='flex gap-2 flex-col justify-center items-center'>
-                          <p className='font-jannaBold text-center text-lg'>الوقت المتبقي للعرض</p>
-                          <p className='text-center font-jannaBold text-5xl'>{Math.round(newDate)} {newDate < 11 && newDate > 1 ? "أيام" : "يوم"}</p>
+                          <p className='text-center font-jannaBold text-5xl'>العدد محدود!</p>
                         </div>
                 
                 </div>
