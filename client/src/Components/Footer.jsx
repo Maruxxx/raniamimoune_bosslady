@@ -14,7 +14,7 @@ const Footer = () => {
 
       <p className='text-white font-jannaBold'>-</p>
 
-      <a href="https://wa.link/s5zgd0" target="_blank" rel="noreferrer" className='flex justify-center items-center gap-2 cursor-pointer'>
+      <a href="https://wa.link/ji7eb4" target="_blank" rel="noreferrer" className='flex justify-center items-center gap-2 cursor-pointer'>
         <p className='font-jannaBold text-white'>Whatsapp</p>
         <img src={require('../assets/icons/wa.png')} width={22} alt=''></img>
       </a>
