@@ -37,8 +37,8 @@ function Offer() {
                           </div>
                         ) : (
                           <div className='flex gap-2'>
-                            <img src={require('../assets/icons/cuttedPrice.png')} alt=''  className='object-contain w-16 sm:w-20 right-10 self-start'></img>
-                            <img src={require('../assets/icons/promoPrice.png')} alt=''  className='object-contain w-32 sm:w-56 right-28'></img>
+                            <img src={require('../assets/icons/cuttedPricee.png')} alt=''  className='object-contain w-16 sm:w-20 right-10 self-start'></img>
+                            <img src={require('../assets/icons/promooPrice.png')} alt=''  className='object-contain w-32 sm:w-56 right-28'></img>
                           </div>
                         )
                       }
@@ -86,8 +86,8 @@ function Offer() {
                           </div>
                         ) : (
                           <div className='flex justify-center items-center  gap-2'>
-                            <img src={require('../assets/icons/cuttedPrice.png')} alt=''  className='object-contain w-24  right-10 self-start'></img>
-                            <img src={require('../assets/icons/promoPrice.png')} alt=''  className='object-contain w-[200px] right-28 self-start'></img>
+                            <img src={require('../assets/icons/cuttedPricee.png')} alt=''  className='object-contain w-24  right-10 self-start'></img>
+                            <img src={require('../assets/icons/promooPrice.png')} alt=''  className='object-contain w-[200px] right-28 self-start'></img>
                           </div>
                         )
                       }
