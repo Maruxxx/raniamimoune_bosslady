@@ -64,7 +64,7 @@ function Offer() {
                     </div>
 
 
-                    <a href='https://docs.google.com/forms/d/1TzAi_Sx2WfTlxA5_c_lT6cBNclydDqb9Ki_Ce3UEpNg' target="_blank" rel="noreferrer" className='w-4/6 mb-5 flex justify-center items-center bg-black px-4 py-4 rounded-lg'>
+                    <a href='https://wa.link/ji7eb4' target="_blank" rel="noreferrer" className='w-4/6 mb-5 flex justify-center items-center bg-black px-4 py-4 rounded-lg'>
                       <p className='font-jannaBold text-center text-white text-xl'>
                       سجّل الآن !
                       </p>
@@ -125,7 +125,7 @@ function Offer() {
                             </div>
 
 
-                            <a href='https://docs.google.com/forms/d/1TzAi_Sx2WfTlxA5_c_lT6cBNclydDqb9Ki_Ce3UEpNg' target="_blank" rel="noreferrer" className='w-4/6 mb-5 text-white flex justify-center items-center bg-black px-4 py-4 rounded-lg hover:scale-110 hover:bg-white hover:text-black transition-all ease-in-out duration-200 cursor-pointer'>
+                            <a href='https://wa.link/ji7eb4' target="_blank" rel="noreferrer" className='w-4/6 mb-5 text-white flex justify-center items-center bg-black px-4 py-4 rounded-lg hover:scale-110 hover:bg-white hover:text-black transition-all ease-in-out duration-200 cursor-pointer'>
                               <p className='font-jannaBold text-center text-xl'>
                               سجّل الآن !
                               </p>
